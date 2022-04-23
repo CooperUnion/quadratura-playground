@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node sketch.js",
     "display": "node sketch.js | python display.py",
+    "example": "node sketch-example.js | python display.py",
     "clean": "rm -rf ./output/*"
   },
   "type": "module",

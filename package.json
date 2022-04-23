@@ -4,19 +4,14 @@
   "description": "A sample app for the Quadratura project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "one": "node index.js | python output.py",
-    "many": "node many.js | python output.py",
-    "ricky": "node ricky.js | output.py",
-    "display": "node ricky.js | python display.py",
-    "test": "node test.js",
-    "clean": "rm -rf ./output/*",
-    "buttons": "node test-buttons.js"
+    "start": "node sketch.js",
+    "display": "node sketch.js | python display.py",
+    "clean": "rm -rf ./output/*"
   },
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CooperUnion/quadratura.git"
+    "url": "git+https://github.com/CooperUnion/quadratura-playground.git"
   },
   "keywords": [
     "node",
@@ -27,9 +22,9 @@
   "author": "Erin Sparling",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CooperUnion/quadratura/issues"
+    "url": "https://github.com/CooperUnion/quadratura-playground/issues"
   },
-  "homepage": "https://github.com/CooperUnion/quadratura#readme",
+  "homepage": "https://github.com/CooperUnion/quadratura-playground#readme",
   "dependencies": {
     "buffer-to-data-url": "^1.0.0",
     "canvas": "^2.9.1",

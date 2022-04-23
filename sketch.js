@@ -1,6 +1,5 @@
 import p5 from 'node-p5'
 
-
 //Artwork by Ricky Yurewitch
 //https://editor.p5js.org/Ricky1280/sketches/sfAlfsPlF
 
@@ -14,7 +13,7 @@ let height = 240
 let offsetx = width/25
 let offsety = height/25
 let canvas
-let fps = 60
+let fps = 20
 
 function sketch(p) {
     p.setup = () => {

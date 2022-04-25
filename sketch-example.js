@@ -1,4 +1,6 @@
 import p5 from 'node-p5'
+import Screen from './class.Screen.js'
+const screen = new Screen()
 
 //Artwork by Ricky Yurewitch
 //https://editor.p5js.org/Ricky1280/sketches/sfAlfsPlF
@@ -50,7 +52,7 @@ function sketch(p) {
         it = (it+p.PI/280)
         it2 = p.sin(it)
         anything = anything+0.0002
-        console.log(canvas.canvas.toDataURL())
+        screen.render(p, canvas)
     }
 }
 let p5Instance = p5.createSketch(sketch);
